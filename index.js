@@ -1,3 +1,4 @@
+require('dotenv').config();
 const Path = require('path');
 const Discord = require('discord.js');
 const ConsolelLogLevels = require('./src/GetHandler/enums/ConsolelLogLevels.js');
@@ -72,5 +73,6 @@ client.on('ready', () => {
         }
     ]);
 })
+client.login(process.env.BOT_TOKEN);
 
 client.login('OTcxODAxMTMzODQ2NzgxOTUy.YnPyVQ.GIIW5tKpmwBSjytNhiwmo4b8eZ4');
