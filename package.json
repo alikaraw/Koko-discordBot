@@ -1,0 +1,21 @@
+{
+  "name": "show-rating",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.9.0",
+    "discord.js": "^13.6.0",
+    "ffmpeg-static": "^4.4.1",
+    "libsodium-wrappers": "^0.7.10",
+    "wokcommands": "^1.5.3"
+  }
+}

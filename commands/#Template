@@ -1,0 +1,15 @@
+module.exports = {
+    name: '',
+    aliases: [],
+    description: '',
+    minArgs: 0,
+    maxArgs: 0,
+    expectedArgs: '',
+    permissions: [],
+    roles: [],
+    categories: [],
+    channels: [],
+
+    callback: ({message, channel, args, text, client, prefix, instance, user, member, guild, commandObject}) => {
+    },
+}
